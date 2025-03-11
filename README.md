@@ -30,3 +30,13 @@ Este proyecto forma parte del curso **Sistemas Operativos I** y tiene como objet
    git clone https://github.com/TU-USUARIO/NOMBRE-DEL-REPO.git
    cd NOMBRE-DEL-REPO
 
+
+👥 Colaboradores
+- [Maria Elena] (Coordinador)
+- [Beatriz Leticia Gamez Peinado]
+- [Jesus ivan Portugal Vega]
+- [victor Javier Coyac Coyac]
+- [Daniel ALejandro De Los Santos Cuevas]
+- [Carlos Eduardo Sanchez Lopez]
+
+
