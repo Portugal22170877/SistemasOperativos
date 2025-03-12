@@ -15,7 +15,7 @@ public class Main {
         System.out.println("=== Planificación por Prioridades No Apropiativo ===");
         new PlanificadorPrioridadNoApropiativo().ejecutar(new ArrayList<>(procesos));
 
-        System.out.println("===Planificacion por SJF Apropiativo===");
-        new PlanificadorSJF().ejecutar(new ArrayList<>(procesos));   
+       System.out.println("=== Planificador por SJF ===");
+       new PlanificadorSJF().ejecutar(new ArrayList<>(procesos));
     }
 }
