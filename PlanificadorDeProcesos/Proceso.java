@@ -14,9 +14,23 @@ class Proceso {
         this.prioridad = prioridad;
     }
 
-    public int getId() { return id; }
-    public int getTiempoEjecucion() { return tiempoEjecucion; }
-    public int getTiempoRestante() { return tiempoRestante; }
-    public void setTiempoRestante(int tiempo) { this.tiempoRestante = tiempo; }
-    public int getPrioridad() { return prioridad; }
+    public int getId() { 
+        return id; }
+    public int getTiempoEjecucion() { 
+        return tiempoEjecucion; 
+    }
+    public int getTiempoRestante() { 
+        return tiempoRestante; 
+    }
+    public void setTiempoRestante(int tiempo) { 
+        this.tiempoRestante = tiempo; 
+    }
+    public int getPrioridad() { 
+        return prioridad; 
+    }
+
+        @Override
+        public String toString() {
+            return id + "\t" + tiempoEjecucion + "\t" + tiempoRestante + "\t" + prioridad;
+        }
 }

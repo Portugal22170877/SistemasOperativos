@@ -50,9 +50,33 @@ public class Menu {
                 rr.ejecutar();
             } else if (opcion == 2) {
                 new RoundRobinNoApropiativo(procesos, quantum).ejecutar();
-            } else {
-                System.out.println("Algoritmo aún no implementado.");
             } 
+            if (opcion == 3) {
+                new PrioridadesApropiativo(procesos, quantum).ejecutar();
+            
+            } 
+            if (opcion == 4) {
+                new PrioridadesNoApropiativo(procesos).ejecutar();
+            } 
+            if (opcion == 5) {
+                new MultiplesColasPrioridadesApropiativo(procesos, quantum).ejecutar();
+            }
+            if (opcion == 6) {
+                new MultiplesColasPrioridadesNoApropiativo(procesos, quantum).ejecutar();
+            }
+            if (opcion == 7) {
+                new BoletosDeLoteriaApropiativo(procesos, quantum).ejecutar();
+            }
+            if (opcion == 8) {
+                new BoletosDeLoteriaNoApropiativo(procesos, quantum).ejecutar();
+            }
+            if (opcion == 9) {
+                new ProcesoMasCortoPrimero(procesos).ejecutar();
+            }
+            else {
+                System.out.println("Algoritmo aún no implementado.");
+            }
+
         }
         
         scanner.close();
