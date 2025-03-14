@@ -1,0 +1,13 @@
+./PlanificadorDeProcesos/PrioridadesNoApropiativo.java
+./PlanificadorDeProcesos/MultiplesColasPrioridadesApropiativo.java
+./PlanificadorDeProcesos/MultiplesColasPrioridadesNoApropiativo.java
+./PlanificadorDeProcesos/PrioridadesApropiativo.java
+./PlanificadorDeProcesos/PlanificacionGarantizada.java
+./PlanificadorDeProcesos/RoundRobinApropiativo.java
+./PlanificadorDeProcesos/PlanificacionEquitativa.java
+./PlanificadorDeProcesos/BoletosDeLoteriaNoApropiativo.java
+./PlanificadorDeProcesos/BoletosDeLoteriaApropiativo.java
+./PlanificadorDeProcesos/ProcesoMasCortoPrimero.java
+./PlanificadorDeProcesos/Proceso.java
+./PlanificadorDeProcesos/RoundRobinNoApropiativo.java
+./PlanificadorDeProcesos/Menu.java

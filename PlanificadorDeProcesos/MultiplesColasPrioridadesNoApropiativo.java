@@ -42,7 +42,7 @@ public class MultiplesColasPrioridadesNoApropiativo {
         }
 
         System.out.println("\n--- Reporte Final ---");
-        System.out.printf("Tiempo total de ejecución: %d\n", tiempoTotalEjecucion);
+        System.out.printf("Tiempo total de ejecución: %d\n", tiempoTotalEjecucion+" unidades de tiempo.");
     }
 }
     

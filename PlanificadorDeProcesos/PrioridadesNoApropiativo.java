@@ -16,6 +16,7 @@ class PrioridadesNoApropiativo {
         System.out.println("\n--- Inicio de la simulación ---");
 
         // Ejecutar los procesos en el orden de prioridad
+        
         for (Proceso proceso : procesos) {
             System.out.println("\nEjecutando proceso: " + proceso.getId());
             System.out.printf("%-10s%-20s%-20s%-15s\n", "ID", "Tiempo de Ejecución", "Tiempo Restante", "Prioridad");
@@ -27,7 +28,7 @@ class PrioridadesNoApropiativo {
         }
 
         System.out.println("\n--- Reporte Final ---");
-        System.out.println("Tiempo total de ejecución: " + tiempoTotal);
+        System.out.println("Tiempo total de ejecución: " + tiempoTotal+" unidades de tiempo.");
     }
 }
     

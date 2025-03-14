@@ -73,8 +73,11 @@ public class Menu {
             if (opcion == 9) {
                 new ProcesoMasCortoPrimero(procesos).ejecutar();
             }
-            else {
-                System.out.println("Algoritmo aún no implementado.");
+            if (opcion == 10) {
+                new PlanificacionGarantizada(procesos).ejecutar();
+            }
+            if (opcion == 11) {
+                new PlanificacionEquitativa(procesos).ejecutar();
             }
 
         }

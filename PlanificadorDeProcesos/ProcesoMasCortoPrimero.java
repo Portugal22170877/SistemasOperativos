@@ -31,11 +31,12 @@ public class ProcesoMasCortoPrimero {
             int quantumUtilizado = procesoSeleccionado.getTiempoRestante();
             procesoSeleccionado.setTiempoRestante(procesoSeleccionado.getTiempoRestante() - quantumUtilizado);
 
-            // Mostramos el estado del proceso
-            System.out.println("Ejecutando proceso: " + procesoSeleccionado.getId());
-            System.out.println(procesoSeleccionado);
-            System.out.println("Quantum utilizado: " + quantumUtilizado);
-            System.out.println("-------------------------------------------------------------");
+           // Mostramos el estado del proceso
+           System.out.printf("Ejecutando proceso: %d | Quantum utilizado: %d\n", procesoSeleccionado.getId(), quantumUtilizado);
+           System.out.printf("%-10s%-20s%-20s%-15s\n", "ID", "Tiempo de Ejecución", "Tiempo Restante", "Prioridad");
+           System.out.println("-------------------------------------------------------------");
+           System.out.printf("%-10d%-20d%-20d%-15d\n", procesoSeleccionado.getId(), procesoSeleccionado.getTiempoEjecucion(), procesoSeleccionado.getTiempoRestante(), procesoSeleccionado.getPrioridad());
+
 
             // Si el proceso ha terminado, lo eliminamos
             if (procesoSeleccionado.getTiempoRestante() == 0) {
@@ -48,7 +49,7 @@ public class ProcesoMasCortoPrimero {
         }
 
         System.out.println("\n--- Reporte Final ---");
-        System.out.println("Tiempo total de ejecución: " + tiempoTotal);
+        System.out.println("Tiempo total de ejecución: " + tiempoTotal+" unidades de tiempo.");
     }
 }
 

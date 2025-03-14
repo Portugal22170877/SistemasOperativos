@@ -22,11 +22,13 @@ public class BoletosDeLoteriaNoApropiativo {
             proceso.setTiempoRestante(proceso.getTiempoRestante() - tiempoEjecutado);
             tiempoTotal += tiempoEjecutado;
             
-            // Mostrar el estado después de cada ejecución
-            System.out.println("Ejecutando proceso: " + proceso.getId());
-            System.out.println(proceso);
-            System.out.println("Quantum utilizado: " + tiempoEjecutado);
+            // Mostrar tabla de procesos// Mostrar el estado después de cada ejecución
+            System.out.printf("%-10s%-20s%-20s%-15s\n", "ID", "Tiempo de Ejecución", "Tiempo Restante", "Prioridad");
             System.out.println("-------------------------------------------------------------");
+            System.out.printf("%-10d%-20d%-20d%-15d\n", proceso.getId(), proceso.getTiempoEjecucion(), proceso.getTiempoRestante(), proceso.getPrioridad());
+            
+            
+             
             
             if (proceso.getTiempoRestante() > 0) {
                 // Si el proceso no ha terminado, se reencola
@@ -39,7 +41,7 @@ public class BoletosDeLoteriaNoApropiativo {
         }
         
         System.out.println("\n--- Reporte Final ---");
-        System.out.println("Tiempo total de ejecución: " + tiempoTotal);
+        System.out.println("Tiempo total de ejecución: " + tiempoTotal+" unidades de tiempo.");
     }
 }
     

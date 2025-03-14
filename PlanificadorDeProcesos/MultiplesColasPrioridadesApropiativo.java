@@ -56,7 +56,7 @@ class MultiplesColasPrioridadesApropiativo {
         }
         
         System.out.println("\n--- Reporte Final ---");
-        System.out.println("Tiempo total de ejecución: " + tiempoTotal);
+        System.out.println("Tiempo total de ejecución: " + tiempoTotal+ " unidades de tiempo.");
     }
 
     private boolean hayProcesos() {
